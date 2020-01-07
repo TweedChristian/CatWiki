@@ -1,0 +1,6 @@
+<div *ngFor='let cat of cats'>
+    <h3>{{cat.name}}</h3>
+    <img [src]="'assets/imgs/' + cat.name + '.jpg'" class='catimg' alt="cat pic">
+    <p>{{cat.description}}</p>
+    <button>Am I your favorite?</button>
+</div>
